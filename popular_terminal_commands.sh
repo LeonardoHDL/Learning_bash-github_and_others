@@ -5,3 +5,6 @@ cal #shows me a graphical calendar
 date #also shows the date in txt format
 df -h #tells me the size of the files located in the cwd
 wc -l #tell me the number of lines of a file, why does it always tells me n_lines -1?
+
+
+#we are adding some new lines just to check that this is working correctly

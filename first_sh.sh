@@ -12,4 +12,3 @@ echo 'hello world'
 #root user on the left
 #group in the midlle
 #and the user in the left
-#chmod +x makes that anyone can run it
