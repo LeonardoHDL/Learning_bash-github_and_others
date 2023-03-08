@@ -8,3 +8,7 @@ wc -l #tell me the number of lines of a file, why does it always tells me n_line
 
 
 #we are adding some new lines just to check that this is working correctly
+
+
+#Now again we are adding some new lines just to see if this is the new head of our branch
+
