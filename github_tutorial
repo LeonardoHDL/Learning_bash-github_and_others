@@ -1,0 +1,87 @@
+What is Git and what is Github?
+Git is a version control system that allows you to manage your 
+source code history.
+Github is  a hosting and collaboration provider which is a
+ repository hoster, is a web spaced solution.
+You can push your git repositories into github.
+
+Git is the actual control system, so GitHub is optional.
+
+Repository: Location where your code history is stored
+inside a Repository we have a BRANCH
+A branch is a 'Folder' within the repository containing commits
+And is said above, inside the branch are the commits, which are 
+different stages of your code inside a branch
+FOr example, if we have an initial code for smt, and the final 
+code that same thing, then we would say that we have 2 commits,
+nd these are saved into a branch, and this is saved in the 
+repository
+
+It's important to know that Git has no GUI, but it's used on the
+CLI directly
+Git allow us to manage different sateges of our source code history
+in a effective and efficient way.
+
+'git init' initialize a git repository
+it creates a folder with what git need to create a repository
+We must tell Git which files shoud add to the repository to be
+tracked
+wen can use 'git add .', these will add all the projects 
+in the folder into the git track format
+It could also be used 'git add filename'
+
+when we want to save a version of our code, we use:
+'git commit -m 'new_name_of_the_file_''
+'-m' writes a new name for this commit version.
+It's important to know that git does not create copies of your 
+file, but simply track changes 
+
+with every new version of your code history, the last version 
+you add to the git, these will become your new head
+(even if IDK what does that even fking mean)
+
+Another thing I do not understand is that he has to write 
+'git add .' every single time before 'git commit -m '..''
+
+each commit has a unique ID
+we can see that version of the code with:
+'git checkout 'UNIQUEID FOR EACH VERSION''
+
+TO return to our last version we (wich is the master branch)
+'git master'
+
+what if we want to delete the las commit?
+We use the commit ID where whe want to comeback, not the 
+the one that we want to erase.
+'git reset --hard 'ID_of_commit_we_want_to_go_back_to''
+
+
+what if we want to go back into a previous version of our code
+but this version was not added as a new commit, but we only 
+changed it in our code and we want to restore it as we had before 
+the changes:
+'git checkout --.'
+
+
+
+if we want to create a new branch we use:
+'git checkout --b 'name_of_new_branch''
+these branch has all the commits contained in our master branch
+
+if we want to switch between branches we use:
+'git checkout 'branch_name''
+
+what happens if i want to merge 2 branches but these have
+different codes that are no compatible
+like branch 1 has a hello world in the first line
+and branch 2 has a 'hi' in the first line,
+well then we get an error mesassage
+
+git offers us some options like:
+accept incoming cahnges (mantains code of the branch that is being
+merged)
+accept current change (mantains code for the original branch)
+compare changes and accept both changes
+
+'git log' allow us to see al the commits of our current branch
+
