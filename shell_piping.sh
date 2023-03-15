@@ -44,4 +44,7 @@ less #lets us scroll over a document
 
 #how could I use this commands in a specific situation
 history | grep tail
-#this will search 
+#this will search in our history every commands that cointain the word tail
+
+!21 #this will run the 21 last command in our history
+
